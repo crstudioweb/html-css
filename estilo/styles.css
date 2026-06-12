@@ -1,0 +1,19 @@
+@charset "UTF-8";
+* {
+  font-family: Arial, sans-serif;
+}
+h1 {
+  color: #333;
+  text-align: center;
+}
+p {
+  font-size: 1.2em;
+  margin: 20px;
+}
+ul {
+  list-style-type: square;
+  margin: 20px;
+}
+li {
+  margin: 10px 0;
+}
