@@ -10,10 +10,39 @@ p {
   font-size: 1.2em;
   margin: 20px;
 }
+
+nav {
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
 ul {
-  list-style-type: square;
+  list-style-type: none;
   margin: 20px;
+  padding: 0;
 }
 li {
   margin: 10px 0;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+a:hover {
+  color: #0056b3;
+}
+h2 {
+  color: #0056b3;
+  margin-top: 30px;
+  text-align: center;
+}
+
+footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
 }
