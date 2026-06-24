@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="estilo/styles2.css" />
+    <title>Mercado Livre</title>
+  </head>
+  <body>
+    <h1>Mercado Livre</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+    <hr />
+
+    <h2>Entre em Contato</h2>
+    <p>
+      Se você tiver alguma dúvida, sugestão ou precisar de assistência, entre
+      em contato conosco através do formulário abaixo.
+    </p>
+    <form action="enviar_contato.php" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="mensagem">Mensagem:</label><br />
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea
+      ><br /><br />
+
+      <input type="submit" value="Enviar" />
+  </body>
+  <footer>
+      <p>&copy; 2026 CR Studio Web. Todos os direitos reservados.</p>
+    </footer>
+</html>
