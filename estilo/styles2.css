@@ -15,12 +15,12 @@ body {
 h1 {
   text-align: center;
   margin-top: 20px;
-  color: #333;
+  color: #025f38;
 }
 
 nav {
   background-color: #fff;
-  color: #333;
+  color: #1541bb;
   padding: 10px;
 }
 
@@ -36,23 +36,23 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #333;
+  color: #3176c5;
   font-weight: bold;
 }
 
 nav ul li a:hover {
-  color: #ffcc00;
+  color: #1304da;
 }
 
 h2 {
   text-align: center;
   margin-top: 20px;
-  color: #333;
+  color: #025f38;
 }
 p {
   text-align: center;
   margin: 10px 0;
-  color: #333;
+  color:;
 }
 
 figure {
@@ -68,13 +68,13 @@ figure img {
 figure figcaption {
   margin-top: 10px;
   font-style: italic;
-  color: #333;
+  color: #1304da;
 }
 
 h3 {
   text-align: center;
   margin-top: 20px;
-  color: #333;
+  color: #025f38;
 }
 
 #voltar {
@@ -118,7 +118,7 @@ footer {
   text-align: center;
   padding: 10px;
   background-color: #fff;
-  color: #333;
+  color: #1304da;
 
   bottom: 0;
   width: 100%;

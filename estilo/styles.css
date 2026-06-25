@@ -39,6 +39,27 @@ h2 {
   margin-top: 30px;
   text-align: center;
 }
+h3 {
+  color: #333;
+  margin-top: 20px;
+  text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+th,
+td {
+  padding: 10px;
+  text-align: left;
+}
 
 footer {
   background-color: #f0f0f0;
