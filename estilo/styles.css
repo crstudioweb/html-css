@@ -46,10 +46,22 @@ h3 {
 }
 
 table {
+  border: 1px solid #111;
   width: 80%;
   margin: 20px auto;
   border-collapse: collapse;
 }
+
+caption {
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: center;
+}
+
+thead {
+  background-color: darkorange;
+}
+
 table,
 th,
 td {
