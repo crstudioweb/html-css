@@ -6,16 +6,23 @@
   box-sizing: border-box;
 }
 
+header img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
 body {
   font-family: Arial, sans-serif;
-  background-color: #ffcc00;
+  background-color: #e9e8e8;
   color: #333;
   line-height: 1.6;
 }
 h1 {
   text-align: center;
   margin-top: 20px;
-  color: #025f38;
+  color: #061494;
 }
 
 nav {
@@ -44,15 +51,27 @@ nav ul li a:hover {
   color: #1304da;
 }
 
+section {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+section p {
+  text-align: center;
+  margin: 10px 0;
+  color: #333;
+}
 h2 {
   text-align: center;
   margin-top: 20px;
   color: #025f38;
 }
 p {
-  text-align: center;
-  margin: 10px 0;
-  color:;
+  text-align: justify;
+  margin: 10px 20px;
+  color: #333;
 }
 
 figure {
@@ -112,6 +131,22 @@ form input[type="submit"] {
 }
 form input[type="submit"]:hover {
   background-color: #ffdd44;
+}
+
+#contato {
+  text-align: center;
+  margin-top: 20px;
+  color: #025f38;
+}
+
+#contato ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contato li {
+  margin: 10px 0;
+  color: #333;
 }
 
 footer {
