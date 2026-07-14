@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com formulários</title>
+    <link rel="stylesheet" href="estilo/styles.css" />
+  </head>
+  <header>
+    <h1>Formulários</h1>
+  </header>
+  <body>
+    <form action="processa.html" method="post">
+      <label for="login">Login:</label>
+      <input
+        type="text"
+        id="login"
+        name="login"
+        placeholder="Digite seu login"
+      />
+      <label for="senha">Senha:</label>
+      <input
+        type="password"
+        id="senha"
+        name="senha"
+        placeholder="Digite sua senha"
+      />
+      <label for="comentario">Comentário:</label>
+      <textarea
+        id="comentario"
+        name="comentario"
+        placeholder="Digite seu comentário"
+      ></textarea>
+      <br /><input type="submit" value="Entrar" />
+    </form>
+  </body>
+  <footer>
+    <p>&copy; 2026 Formulário de Contato. Todos os direitos reservados.</p>
+  </footer>
+</html>
