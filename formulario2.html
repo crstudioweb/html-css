@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulários em HTML</title>
+    <link rel="stylesheet" href="estilo/styles.css" />
+  </head>
+  <header>
+    <h1>Formulários em HTML</h1>
+  </header>
+  <body>
+    <h2>Elementos de Formulário</h2>
+    <form action="" method="get">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required /><br /><br />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required /><br /><br />
+
+      <label for="senha">Senha:</label>
+      <input type="password" id="senha" name="senha" required /><br /><br />
+
+      <label for="idade">Idade:</label>
+      <input
+        type="number"
+        id="idade"
+        name="idade"
+        min="0"
+        max="120"
+        required
+      /><br /><br />
+
+      <label for="genero">Gênero:</label>
+      <select id="genero" name="genero">
+        <option value="">Selecione</option>
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option></select
+      ><br /><br />
+
+      <label for="interesses">Interesses:</label><br />
+      <input
+        type="checkbox"
+        id="interesse1"
+        name="interesses[]"
+        value="tecnologia"
+      />
+      <label for="interesse1">Tecnologia</label><br />
+      <input
+        type="checkbox"
+        id="interesse2"
+        name="interesses[]"
+        value="esportes"
+      />
+      <label for="interesse2">Esportes</label><br />
+      <input
+        type="checkbox"
+        id="interesse3"
+        name="interesses[]"
+        value="musica"
+      />
+      <label for="interesse3">Música</label><br /><br />
+
+      <input type="file" name="arquivo" /><br /><br />
+
+      <input type="submit" value="Enviar" />
+    </form>
+
+    <form action="">
+
+        <fieldset>
+          <legend>Informações Adicionais</legend>
+          <label for="mensagem">Mensagem:</label><br />
+          <textarea id="mensagem" name="mensagem"></textarea><br /><br />
+        </fieldset>
+
+        <fieldset>
+          <legend>Preferências</legend>
+            <label for="cor">Cor favorita:</label>
+            <input type="color" id="cor" name="cor" /><br /><br />
+            <label for="data">Data de nascimento:</label>
+            <input type="date" id="data" name="data" />
+        </fieldset>
+      </form>
+    </form>
+  </body>
+
+  <footer>
+    <p>&copy; 2026 Formulários em HTML. Todos os direitos reservados.</p>
+  </footer>
+</html>
