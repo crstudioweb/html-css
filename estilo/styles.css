@@ -5,9 +5,10 @@
 h1 {
   color: #333;
   text-align: center;
+  border-bottom: 2px solid #b90505;
 }
 p {
-  font-size: 1.2em;
+  font-size: 1.3em;
   margin: 20px;
 }
 
